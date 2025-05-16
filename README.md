@@ -1,60 +1,91 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>RAGP Africa Info Portal</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f7f9fb; color: #333; }
-    header, footer { background: #0a3d62; color: #fff; text-align: center; padding: 1em 0; }
-    nav a { margin: 0 15px; color: #fff; text-decoration: none; }
-    .container { padding: 20px; max-width: 900px; margin: auto; }
-    .section { margin-bottom: 40px; }
-    h2 { color: #0a3d62; }
-    .btn { display: inline-block; padding: 10px 20px; background: #0a3d62; color: #fff; text-decoration: none; border-radius: 5px; }
-    .btn:hover { background: #065a82; }
-    .whatsapp { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: #fff; padding: 15px; border-radius: 50%; font-size: 24px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.3); }
-  </style>
-</head>
-<body>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
 
-<header>
-  <h1>Welcome to RAGP Africa Portal</h1>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#register">Register</a>
-  </nav>
-</header>
+  h1 {
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: 700;
+  }
 
-<div class="container">
-  <div class="section" id="about">
-    <h2>About RAGP Africa</h2>
-    <p>RAGP Africa is a fintech platform offering seamless telecom services, bill payments, affiliate rewards, and e-commerce solutions across Africa.</p>
-  </div>
+  p {
+    font-size: 16px;
+    margin: 10px 0 30px;
+    opacity: 0.9;
+  }
 
-  <div class="section" id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li><strong>Telecom:</strong> Recharge and earn with every airtime/data purchase.</li>
-      <li><strong>Bill Payments:</strong> Pay electricity and cable bills with ease.</li>
-      <li><strong>Affiliate Rewards:</strong> Earn by referring others through a simple structure.</li>
-      <li><strong>E-commerce:</strong> Shop online with rewards and savings.</li>
-    </ul>
-  </div>
+  .video-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
 
-  <div class="section" id="register">
-    <h2>Get Started</h2>
-    <p>Click the button below to register and start earning with RAGP Africa:</p>
-    <a class="btn" href="https://ngn.rechargeandgetpaid.cm/auth/register?r=Richlyglobal" target="_blank">Register Now</a>
-  </div>
+  .video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    left: 0;
+    top: 0;
+  }
+
+  .btn {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    transition: background 0.3s ease;
+  }
+
+  .btn:hover {
+    background: linear-gradient(to right, #0099cc, #0056b3);
+  }
+
+  footer {
+    margin-top: auto;
+    padding: 10px;
+    font-size: 12px;
+    opacity: 0.6;
+  }
+</style>
+
+<h1>Welcome to RAGP Africa</h1>
+<p>Join the movement. Earn from airtime/data, bills, and affiliate rewards across Africa.</p>
+
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/ft6Dbt-2lJg?autoplay=1&rel=0"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
-<a class="whatsapp" href="https://wa.link/gitrql" target="_blank" title="Chat on WhatsApp">✆</a>
+<a href="https://ngn.rechargeandgetpaid.cm/auth/register?r=Richlyglobal" target="_blank" rel="noopener noreferrer" class="btn">Sign Up</a>
+<a href="https://ngn.ragpafrica.com/" target="_blank" rel="noopener noreferrer" class="btn">Login</a>
+<a href="https://wa.link/8sa6av" target="_blank" rel="noopener noreferrer" class="btn">Customer Support</a>
 
-<footer>
-  <p>&copy; 2025 RAGP Africa | Powered by Richlyglobal</p>
-</footer>
-
-</body>
-</html>
+<footer>© 2025 RAGP Africa | Powered by Richlyglobal</footer>
