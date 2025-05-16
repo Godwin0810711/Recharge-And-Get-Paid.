@@ -15,30 +15,30 @@
   }
 
   h1 {
-    font-size: 24px;
-    margin: 20px 0 10px;
-    font-weight: 700;
+    font-size: 28px;
+    margin: 20px 0 15px;
+    font-weight: 800;
     letter-spacing: 0.5px;
   }
 
   p {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 700;
     opacity: 0.95;
-    margin: 5px 0 20px;
-    line-height: 1.5;
+    margin: 10px 0 25px;
+    line-height: 1.6;
   }
 
   .video-container {
     position: relative;
     width: 100%;
-    max-width: 360px;
+    max-width: 380px;
     padding-bottom: 56.25%;
     height: 0;
-    border-radius: 12px;
+    border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .video-container iframe {
@@ -53,16 +53,16 @@
   .btn {
     background: linear-gradient(to right, #00c6ff, #0072ff);
     color: white;
-    padding: 14px 0;
+    padding: 18px 0;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     text-decoration: none;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 800;
+    font-size: 17px;
     display: block;
     width: 100%;
-    max-width: 360px;
-    margin: 10px 0;
+    max-width: 380px;
+    margin: 12px 0;
     transition: background 0.3s ease, transform 0.2s ease;
   }
 
@@ -73,8 +73,8 @@
 
   footer {
     margin-top: 30px;
-    font-size: 12px;
-    opacity: 0.7;
+    font-size: 13px;
+    opacity: 0.75;
   }
 </style>
 
