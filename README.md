@@ -78,7 +78,7 @@
   }
 </style>
 
-<h1>Welcome to RAGP Africa</h1>
+<h1>Welcome to Recharge And Get Paid</h1>
 <p>Join the movement to earn from airtime, data, bills, and affiliate rewards across Africa.</p>
 
 <div class="video-container">
